@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Genja Rizky Novianto </title>
+</head>
+<body>
+    <h1><b>CURRICULUM VITAE</b></h1>
+    <p><img src="/foto/profil_genja.jpeg" alt="" width="200" ></p>        
+    <ul>
+        <li><h2><b>BIODATA DIRI </b></h2></li>
+    </ul>
+   <div class="BiodataDiri">
+    <table>
+        <tr>
+            <td>Nama</td><td>:</td><td>Genja Rizky Novianto </td>
+        </tr>
+        <tr>
+            <td>Tempat, Tanggal Lahir</td><td>:</td><td>Jakarta,08 November 2001 </td>
+        </tr>
+        <tr>
+            <td>Jenis Kelamin</td><td>:</td><td>Laki-Laki </td>
+        </tr>
+        <tr>
+            <td>Agama</td><td>:</td><td>Islam </td>
+        </tr>
+        <tr>
+            <td>Alamat</td><td>:</td><td>Citra Prima Serpong, A3 No 12 </td>
+        </tr>
+        <tr>
+            <td>Nomor Telepon</td><td>:</td><td>0812-9355-6329 </td>
+        </tr>
+        <tr>
+            <td>Alamat Email</td><td>:</td><td><a href="mailto:genjanovianto@gmail.com">genjanovianto@gmail.com</a></td>  
+        </tr>
+    </table>
+    </div>
+    <ul>
+        <li><h2><b>RIWAYAT PENDIDIKAN </b></h2></li>
+    </ul>
+    <div class="Riwayat Pendidikan">
+    <table>
+        <tr>
+            <td>SD</td><td>:</td><td>SDN Muncul 01</td>
+        </tr>    
+        <tr>
+            <td>SMP</td><td>:</td><td>SMPN 8 Kota Tangerang Selatan </td>
+        </tr>
+        <tr>
+            <td>SMA</td><td>:</td><td>SMAN 12 Kota Tangerang Selatan </td>
+        </tr>
+        <tr>
+            <td>Perguruan Tinggi</td><td>:</td><td>Institut Teknologi Sumatera </td>
+        </tr>
+    </table>
+    </div>
+    <footer>
+        <p><small>Copyright &copy;2021 Curriculum Vitae.Created by Genja Rizky Novianto</small></p>
+    </footer>
+</body>
+</html>
