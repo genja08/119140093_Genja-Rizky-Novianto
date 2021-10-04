@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Genja Rizky Novianto Mg 5</title>
+
+     <!-- Font Icon -->
+     <link rel="stylesheet" href="fonts/material-icon/css/material-design-iconic-font.min.css">
+
+     <!-- Main css -->
+     <link rel="stylesheet" href="style_2.css">
+
+</head>
+<body>
+    <div class="main">
+        <div class="container">
+            <div class="signup-content">
+                <div class="signup-img">
+                    <img src="foto/foto_form.jpg" alt="">
+                </div>
+                <div class="signup-form">
+                    <form action="hasil.html" method="GET" class="register-form" id="register-form">
+                        <h2>Formulir Registrasi Mahasiswa</h2>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="nama">Nama :</label>
+                                <input type="text" name="nama" id="nama" required/>
+                            </div>
+                            <div class="form-group">
+                                <label for="NIM">NIM :</label>
+                                <input type="text" name="NIM" id="NIM" required/>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="address">Alamat :</label>
+                            <input type="text" name="Alamat" id="Alamat" required/>
+                        </div>
+                        <div class="form-radio">
+                            <label for="Kelamin" class="Kelamin">Kelamin :</label>
+                            <div class="form-radio-item">
+                                <input type="radio" name="Kelamin" id="laki-laki" checked>
+                                <label for="laki-laki">laki-laki</label>
+                                <span class="check"></span>
+                            </div>
+                            <div class="form-radio-item">
+                                <input type="radio" name="Kelamin" id="Perempuan">
+                                <label for="Perempuan">Perempuan</label>
+                                <span class="check"></span>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            
+                            <div class="form-group">
+                                <label for="city">Kota :</label>
+                                <div class="form-select">
+                                    <select name="city" id="city">
+                                        <option value=""></option>
+                                        <option value="BandarLampung">Bandar Lampung</option>
+                                        <option value="Kalianda">Kalianda</option>
+                                        <option value="KotaAgung">KotaAgung</option>
+                                        <option value="Metro">Metro</option>
+                                    </select>
+                                    <span class="select-icon"><i class="zmdi zmdi-chevron-down"></i></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="birth_date">Tempat/Tanggal/Lahir :</label>
+                            <input type="text" name="birth_date" id="birth_date">
+                        </div>
+                        <div class="form-group">
+                            <label for="pincode">Pin :</label>
+                            <input type="text" name="pincode" id="pincode">
+                        </div>
+                        <div class="form-group">
+                            <label for="minat">minat :</label>
+                            <div class="form-select">
+                                <select name="minat" id="minat">
+                                    <option value=""></option>
+                                    <option value="AI">Artificial Intellegent</option>
+                                    <option value="SI">Sistem Informasi</option>
+                                    <option value="RPL">Rekayasa Perangkat Lunak</option>
+                                    <option value="KSP">Keamanan Siber dan Pervasif</option>
+                                </select>
+                                <span class="select-icon"><i class="zmdi zmdi-chevron-down"></i></span>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email ID :</label>
+                            <input type="email" name="email" id="email" />
+                        </div>
+                        <div class="form-submit">
+                            <input type="submit" value="Reset All" class="submit" name="reset" id="reset" />
+                            <input type="submit" value="Submit Form" class="submit" name="submit" id="submit" />
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
